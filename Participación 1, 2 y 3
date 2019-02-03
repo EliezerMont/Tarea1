@@ -1,0 +1,44 @@
+//Eliezer Natanael Montalvo Sillas 1630727
+//Simbolo de prohibido
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(255);
+	stroke (255,0,0);
+	strokeWeight(30);
+	fill(255);
+	ellipse (200,200,300,300);
+	line(90,100,300,300);
+}
+
+//Bandera
+
+function setup() {
+  createCanvas(450, 450);
+}
+
+function draw() {
+  background(255,0,0);
+	fill (0,0,255);
+	rect (300,0,450,450);
+	fill(0,255,0);
+	rect(150,0,150,450);
+	
+}
+
+//Lineas
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+background(0);
+	stroke(255);
+	line(200,0,200,200);
+	line(200,200,400,400);
+	line(0,400,200,200);
+}
